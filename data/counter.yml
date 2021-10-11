@@ -1,0 +1,14 @@
+enable: true
+heading: "THE PROOF IS IN THE PUDDING!"
+counter_item:
+  - title: "Happy Clients"
+    number: "0"
+
+  - title: "Projects Completed"
+    number: "0"
+
+  - title: "Cups of coffee"
+    number: "1000"
+
+  - title: "Telephone Talks"
+    number: "0"
