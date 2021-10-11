@@ -1,4 +1,4 @@
-baseURL       = "https://royjara.github.io/"
+baseURL       = "https://royjara.github.io/newportfolio/"
 languageCode  = "en-us"
 title         = "Roy Jara Creative Tech"
 theme         = "roxo"
@@ -98,9 +98,9 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
-      address = "La Molina<br>Lima, Peru"
-      phone   = "(+51) 950-305-085"
-      email   = "rmjt224@gmail.com"
+      address = "Los Angeles, CA"
+      phone   = "+1 (213) 442 4848"
+      email   = "rmjara@g.ucla.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
