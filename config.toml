@@ -4,6 +4,9 @@ title         = "Roy Jara Creative Tech"
 theme         = "roxo"
 summarylength = 25
 
+relativeURLs = true
+canonifyURLs = true
+
 # Site Menus
 [menu]
   # Navbar Menus
