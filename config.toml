@@ -1,4 +1,4 @@
-baseURL       = "https://royjara.github.io/newportfolio/"
+baseURL       = "//royjara.github.io/newportfolio/"
 languageCode  = "en-us"
 title         = "Roy Jara Creative Tech"
 theme         = "roxo"
