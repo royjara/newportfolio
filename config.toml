@@ -1,6 +1,6 @@
 baseURL       = "//royjara.github.io/newportfolio/"
 languageCode  = "en-us"
-title         = "Roy Jara Creative Tech"
+title         = "R Jara"
 theme         = "roxo"
 summarylength = 25
 
@@ -75,9 +75,9 @@ canonifyURLs = true
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background2.jpg"
-    heading               = "Engineering for creativity, art, and music"
-    tagline               = "MAKING IDEAS INTO REALITY"
+    background_image      = "images/backgrounds/ligh_wip_bg.png"
+    heading               = "proximamente"
+    tagline               = "portafolio y planes"
     primary_button        = "See My Work"
     primary_button_url    = "portfolio"
     secondary_button      = "Connect with Me"
