@@ -41,7 +41,7 @@ canonifyURLs = true
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  formspreeFormUrl  = "https://formspree.io/f/mwkajpre"
 
   # Contact Form
   [params.contactForm]
