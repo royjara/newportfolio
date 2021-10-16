@@ -130,5 +130,5 @@ canonifyURLs = true
           url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "Dedicated to helping:"
-        description = "clients streamline the creation<br>of new physical and digital products"
+        title       = "and so on"
+        description = "and so forth"
