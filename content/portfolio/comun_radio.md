@@ -8,19 +8,27 @@ project_images: ["images/projects/comunradio1.png",
 "images/projects/comunradio1.png",]
 ---
 
-Comun Radio is a community radio based in Lima, Peru. It was established in May 2021.
+In a country where most radio stations only look for music overseas, a vaccuum for the promotion of national talent served as motivation to start Comun Radio, a community radio based in Lima, Peru.
 
-This radio is driven by musicians, and it is intended for fellow music lovers. This is why a modern platform with high fidelity audio was needed.
+> "Driven by musicians, intended for fellow music lovers."
 
-Inspired by fellow community radios gaining traction globally, I decided to use a cloud provider for high availability, ease of development, and ability to scale as our audience grows.
+##### Cloud Server: Digital Ocean + Azuracast
 
-The radio front end was developed using readymag, a russian no-code platform capable of producing beautiful website. In order to extend readymag's capabilities, we also injected custom javascript code to add radio functionality and make it more dynamic.
+The cloud computing paradigm empowers the small entrepreneur and provides them with the tools needed to avoid upfront costs of purchasing hardware. Via cloud computing, we can easily create and destroy a server (or multiple when we need to scale) without having to actually own the machine. AWS, Google Cloud, Azure are the most popular options. But we're proud to be using Digital Ocean (DO).
 
-The radio backend consists of a bundle of open source technologies, including liquidsoap, icecast as well as MariaDB and a webclient for scheduling shows and managing content.
+Apart from the seamless installation of an azuracast instance, this cloud provider offers the best network throughput for the money.
 
-Disclaimer: This project is still a work in progress.
+Now, inside of this DO droplet, we're using Azuracast to handle the media ingestion as well as the programming and streaming.
 
-My upcoming work includes:
+##### DJ Clients: BUTT
+
+BUTT (Broadcast Using This Tool) is a lifesaver. Open source software comes in handy once again. BUTT is a small but sturdy tool to broadcast remotely. It integrates effortlessly with the Azuracast system after some initial configuration.
+
+##### Frontend: Readymag
+
+Disclaimer: still a WIP
+
+Upcoming work includes:
 
 - Scripts for auto-editing audio and video.
 - Scripts for automatically populating content (youtube, soundcloud)

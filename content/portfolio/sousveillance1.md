@@ -1,5 +1,5 @@
 ---
-title: "sousveillance1 - my secretary"
+title: "sousveillance1 - allday transcriber"
 date: 2019-12-23T15:44:46+06:00
 type: portfolio
 image: "images/backgrounds/diylogoArtboard1.png"

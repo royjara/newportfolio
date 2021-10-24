@@ -13,6 +13,8 @@ project_images:
 
 ##### Why play a regular old flute when you can augment it using computers?
 
+_An exploration for thc212 research presentation_
+
 We all know and treasure the flute: the physics of resonating sound waves inside of the chamber, how daunting all the keys look to the inexperienced player, and how it is still used in modern music. The sound from the flute strongly approximates pure sine waves, yet the sound can be as expressive as the player desires via blowing modulations and lip placement.
 
 However, I'm seeking to take this a step further and create interactions with software via hardware. Real-time sound effects are the first thing that comes to mind. So I'll start with that. But I picture this project becoming a modular platform that could enable further interaction (synthesis of computer graphics, automated accompaniment, sentiment detection, etc).
@@ -42,9 +44,6 @@ The initial patches:
 
 In order to get this prototype working fast, I'm going to be using existent functions/algorithms for the reverb and delay.
 
-As research presentation exploration for thc212
+Later on:
 
-wikenator
-max patches
-led wall
-hr working w ble
+- wikenator
