@@ -2,7 +2,7 @@
 title: "Augmented Flute"
 date: 2021-10-23T14:44:46+06:00
 type: portfolio
-image: "images/backgrounds/diylogoArtboard1.png"
+image: "images/backgrounds/diylogoArtboard2.png"
 category: ["NEW MEDIA"]
 project_images:
   [

@@ -5,7 +5,7 @@ theme         = "roxo"
 summarylength = 25
 
 relativeURLs = true
-canonifyURLs = true
+canonifyURLs = false
 
 # Site Menus
 [menu]
@@ -22,10 +22,6 @@ canonifyURLs = true
     name    = "Portfolio"
     url     = "portfolio"
     weight  = 3
-  [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
-    weight  = 4
   [[menu.nav]]
     name    = "Get in touch"
     url     = "contact"
@@ -114,9 +110,6 @@ canonifyURLs = true
           name = "Projects"
           url  = "portfolio"
         [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
-        [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
       # Footer Social Media
@@ -124,11 +117,8 @@ canonifyURLs = true
         title   = "Social Media"
         [[params.footer.social.link]]
           name = "Medium"
-          url  = "#"
+          url  = "//royjara.medium.com"
         [[params.footer.social.link]]
           name = "Instagram"
-          url  = "#"
+          url  = "//www.instagram.com/evil_fft"
       # Footer Service
-      [params.footer.service]
-        title       = "And so on"
-        description = "and so forth"
