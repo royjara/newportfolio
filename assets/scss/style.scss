@@ -202,3 +202,100 @@ a {
 @import "footer";
 @import "button";
 @import "404";
+
+.card-form {
+  width: 500px;
+  // border-radius: 10px;
+  background: white;
+  box-shadow: 5px 5px 5px 5px var(--color-boxshadow);
+
+  .form-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 20px;
+    background: var(--color-footer-bg);
+  }
+
+  .form-body {
+    padding: 10px;
+
+    .row {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+
+      input[name="name"] {
+        appearance: none;
+        width: 100%;
+        margin: 0 15px;
+        height: 35px;
+        padding: 5px 15px;
+        // border-radius: 5px;
+        outline: none;
+        border: none;
+        background: #e8ebed;
+        color: #576366;
+        font-size: 14px;
+      }
+      input[name="email"] {
+        appearance: none;
+        width: 100%;
+        margin: 0 15px;
+        height: 35px;
+        padding: 5px 15px;
+        // border-radius: 5px;
+        outline: none;
+        border: none;
+        background: #e8ebed;
+        color: #576366;
+        font-size: 14px;
+      }
+      input[name="message"] {
+        appearance: none;
+        width: 100%;
+        margin: 0 15px;
+        height: 70px;
+        padding: 5px 15px;
+        // border-radius: 5px;
+        outline: none;
+        border: none;
+        background: #e8ebed;
+        color: #576366;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .rule {
+    height: 2px;
+    background: #e8ebed;
+    margin: 0px 35px;
+  }
+
+  .form-footer {
+    margin: 0 25px 15px 25px;
+    padding: 15px 10px;
+
+    button {
+      display: inline-block;
+      height: 40px;
+      // line-height: 40px;
+      border: none;
+      // border-radius: 5px;
+      padding: 5px 15px;
+      background: var(--color-code-bg);
+      margin-right: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      box-shadow: 1px 1px 1px 1px var(--color-boxshadow);
+    }
+
+    span {
+      margin-left: 8px;
+    }
+  }
+}

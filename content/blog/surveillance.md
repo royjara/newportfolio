@@ -22,16 +22,11 @@ For a short while in October 2021 I became one of those people who are paranoid 
 
 It all started when I started reading this book called __The Age of Surveillance Capitalism__ by __Shoshana Zuboff__. 
 
-### Our agreement to live under surveillance capitalism
 
+Ideas:
 
-
-Outline:
-
-- context
-- Thesis (synthesize some ideas/readings)
-- Afterthought
-- Sousveillance?
-- What could the future look like?
-- web3.0?
+- what is it?
+- why should we care?
+- sousveillance
+- web3
 

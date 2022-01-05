@@ -10,9 +10,11 @@ footnoteReturnLinkContents = "^"
 theme         = "origin"
 summarylength = 25
 
-# relativeURLs = true
-canonifyURLs = false
-
+UglifyURLs = true
+CanonifyURLs = true
+[permalinks]
+    blog = "/blog/:filename"
+    portfolio = "/project/:filename"
 
 # Site Menus
 [menu]
@@ -21,10 +23,6 @@ canonifyURLs = false
     name    = "About"
     url     = "about"
     weight  = 1
-  [[menu.main]]
-    name    = "Portfolio"
-    url     = "portfolio"
-    weight  = 2
   [[menu.main]]
     name    = "Get in touch"
     url     = "contact"

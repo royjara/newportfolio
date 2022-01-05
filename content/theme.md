@@ -13,3 +13,9 @@ Big thanks to the creators:
 <br>@NuttyChivalry
 
 [github repo](https://github.com/moody-person/origin-hugo-theme)
+
+
+### Note:
+
+I'm aware that the navigation is a bit funky right now.
+For now, please use the home button to move from site to site.

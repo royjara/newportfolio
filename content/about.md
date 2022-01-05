@@ -5,13 +5,10 @@ date = "2022-01-04"
 aliases = ["about-us","about","contact"]
 author = "Roy Jara"
 weight = 2
+_build = {list = "never"}
 +++
 
-
-<!-- TODO
-- Fix contact form
-
- -->
+<h3><mark>Currently Seeking : <strong>Summer Internship</strong></mark></h3>
 
 ### Master's student @ UCLA in the Electrical Engineering department
 
@@ -28,7 +25,6 @@ I'm seeking to accelerate the ethical distribution of new technologies to people
 
 I am proficient with computers and many digital tools, I won't list them here. But know that I can easily learn stuff I don't know :P.
 
-Currently Seeking : *Summer Internship*
 
 ### Languages
 
@@ -38,23 +34,26 @@ Currently Seeking : *Summer Internship*
 - German (Beginner)
 
 
-<!-- modify this form HTML and place wherever you want your form -->
+<br>
+<br>
 
-<!-- <form
-  action="https://formspree.io/f/mwkajpre"
-  method="POST"
->
-  <label>
-    Your name:
-    <input name="name">
-  </label>
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <button type="submit">Send</button>
-</form> -->
+<div class="card-form">
+  <form class="signup" action="https://formspree.io/f/mwkajpre"
+  method="POST">
+    <div class="form-title">Get in touch!</div>
+    <div class="form-body">
+      <div class="row">
+        <input type="text" name="name" placeholder="Name*">
+        <input type="email" name="email" placeholder="Email*">
+      </div>
+      <div class="row">
+        <input type="text" name="message" placeholder="Message*">
+      </div>
+    </div>
+    <div class="rule"></div>
+    <div class="form-footer">
+      <button type="submit">Send</button>
+      <input type="hidden" name="_next" value="/" />
+    </div>
+  </form>
+</div>
