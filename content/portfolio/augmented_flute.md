@@ -1,15 +1,21 @@
----
-title: "Augmented Flute"
-date: 2021-10-23T14:44:46+06:00
-type: portfolio
-image: "images/backgrounds/diylogoArtboard2.png"
-category: ["NEW MEDIA"]
-project_images:
-  [
-    "images/projects/project-details-image-one.jpg",
-    "images/projects/project-details-image-two.jpg",
-  ]
----
++++
+author = "Roy Jara"
+title = "Augmented Flute"
+date = "2021-10-23"
+description = "Musical instrument for new media performances."
+tags = [
+    "portfolio",
+    "arduino",
+    "maxmsp",
+]
+categories = [
+    "music",
+    "newmedia",
+]
+series = ["Portfolio"]
+imagelink = "images/backgrounds/diylogoArtboard2.png"
+weight = 1
++++
 
 ##### Why play a regular old flute when you can augment it using computers?
 
@@ -46,4 +52,4 @@ In order to get this prototype working fast, I'm going to be using existent func
 
 Later on:
 
-- wikenator
+- wekinator

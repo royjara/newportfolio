@@ -1,124 +1,62 @@
 baseURL       = "//royjara.github.io/newportfolio/"
-languageCode  = "en-us"
-title         = "R Jara"
-theme         = "roxo"
+title         = "Roy Jara"
+author        = "Roy Jara"
+copyright     = "© 2022, Roy Jara"
+paginate      = 4
+languageCode  = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+theme         = "origin"
 summarylength = 25
 
-relativeURLs = true
+# relativeURLs = true
 canonifyURLs = false
+
 
 # Site Menus
 [menu]
   # Navbar Menus
-  [[menu.nav]]
-    name    = "Home"
-    url     = ""
-    weight  = 1
-  [[menu.nav]]
+  [[menu.main]]
     name    = "About"
     url     = "about"
-    weight  = 2
-  [[menu.nav]]
+    weight  = 1
+  [[menu.main]]
     name    = "Portfolio"
     url     = "portfolio"
-    weight  = 3
-  [[menu.nav]]
+    weight  = 2
+  [[menu.main]]
     name    = "Get in touch"
     url     = "contact"
-    weight  = 5
+    weight  = 3
+  [[menu.main]]
+    name    = "Theme?"
+    url     = "theme"
+    weight  = 3
+
+# used for tags:
+[taxonomies]
+  category = "cat"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    tabWidth = 4
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 # Site Params
 [params]
-  logo = "images/logo.png"
-  dateFormat = "26 FEB 1994"
-  # Meta data
-  description = "Roy Jara | Personal Website"
-  author = "royjara"
-  # Google Analitycs
-  googleAnalitycsID = "Your ID"
-  # We're using formspree.io for form handling, paste your formspree url below
-  formspreeFormUrl  = "https://formspree.io/f/mwkajpre"
+  description = "computers | art | music"
+  featured = true
+  cssonly = false
+  # logo = "images/logo.png"
+  dateFormat = "26-02-1994"
 
-  # Contact Form
-  [params.contactForm]
-    placeholder_first_name        = "First Name"
-    placeholder_last_name         = "Last Name"
-    placeholder_email             = "Email"
-    placeholder_project_type      = "Project Type"
-    placeholder_about_the_project = "About the Project"
-    send_message                  = "Send Message"
-
-    [[params.contactForm.projectType]]
-      value = "ee"
-      title  = "Engineering"
-    [[params.contactForm.projectType]]
-      value = "wd"
-      title  = "Web Design"
-    [[params.contactForm.projectType]]
-      value = "a"
-      title  = "Audio"
-    [[params.contactForm.projectType]]
-      value = "i"
-      title  = "New Media Installations"
-  
-  # Navbar Action Button
-  [params.navAction]
-    status  = true
-    name    = "Get in touch"
-    url     = "contact"
-  
-
-  # Banner Section
-  [params.banner]
-    enable                = true
-    background_image      = "images/backgrounds/ligh_wip_bg.png"
-    heading               = "proximamente"
-    tagline               = "portafolio y planes"
-    primary_button        = "See My Work"
-    primary_button_url    = "portfolio"
-    secondary_button      = "Connect with Me"
-    secondary_button_url  = "contact"
-
-  [params.portfolio]
-    enable    = true
-    title     = "RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
-
-  [params.call_to_action]
-    enable              = false
-    background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
-    primary_button      = "Submit Query"
-    primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
-
-  [params.footer]
-    # Footer Contact Info
-    [params.footer.contactInfo]
-      title   = "Contact Info"
-      address = "Los Angeles, CA"
-      phone   = "+1 (213) 442 4848"
-      email   = "rmjara@g.ucla.com"
-      # Footer Sitemap
-      [params.footer.sitemap]
-        title   = "Sitemap"
-        [[params.footer.sitemap.link]]
-          name = "About Roy"
-          url  = "about"
-        [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Contact"
-          url  = "contact"
-      # Footer Social Media
-      [params.footer.social]
-        title   = "Social Media"
-        [[params.footer.social.link]]
-          name = "Medium"
-          url  = "//royjara.medium.com"
-        [[params.footer.social.link]]
-          name = "Instagram"
-          url  = "//www.instagram.com/evil_fft"
-      # Footer Service
+  [params.socials]
+    instagram = "//www.instagram.com/evil_fft"
+    github = "//github.com/roy-jara"
+    medium= "//royjara.medium.com"
