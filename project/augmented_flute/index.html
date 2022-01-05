@@ -2,36 +2,32 @@
 <meta charset=utf-8>
 <title>Roy Jara</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content>
-<meta property="og:title" content="LIGHTS">
-<meta property="og:description" content>
+<meta name=description content="Musical instrument for new media performances.">
+<meta property="og:title" content="Augmented Flute">
+<meta property="og:description" content="Musical instrument for new media performances.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="//royjara.xyz/portfolio/lights/">
-<meta itemprop=name content="LIGHTS">
-<meta itemprop=description content>
+<meta property="og:url" content="//royjara.xyz/project/augmented_flute/">
+<meta itemprop=name content="Augmented Flute">
+<meta itemprop=description content="Musical instrument for new media performances.">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="LIGHTS">
-<meta name=twitter:description content>
+<meta name=twitter:title content="Augmented Flute">
+<meta name=twitter:description content="Musical instrument for new media performances.">
 <link rel=apple-touch-icon sizes=180x180 href=apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=favicon-32.png>
-<link rel=stylesheet href=//royjara.xyz/scss/style.min.06fc16d46920c3a543e8a290c7ed4839a9b58623de13f9b619e0bf0fba38c024.css>
+<link rel=stylesheet href=//royjara.xyz/scss/style.min.8260685502cedc604428b3450d6454f7b72cc2acccc07dc13c6f189fdb47918c.css>
 </head>
 <body>
 <header>
 <div class="header header-frame">
 <div>
-<h1 class=header__title>LIGHTS</h1>
+<h1 class=header__title>Augmented Flute</h1>
+<div class=header__description>Musical instrument for new media performances.</div>
 </div>
 <nav class=header-nav>
 <ul class="header-nav-list header-nav-list--menu">
 <li class=header-nav-list__item>
 <a class=header-nav-list__link href=about>
 <span>About</span>
-</a>
-</li>
-<li class=header-nav-list__item>
-<a class=header-nav-list__link href=portfolio>
-<span>Portfolio</span>
 </a>
 </li>
 <li class=header-nav-list__item>
@@ -56,21 +52,11 @@
 <nav id=mobile-header-nav class=mb-header-nav>
 <button class="mb-header-nav__close-btn flex-center"><svg class="mb-header-nav__svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
 </button>
-<div class=mb-header-nav__wrapper>
-<div class=mb-header-nav__container><svg width="240" height="72" viewBox="0 0 240 72" class="mb-header-nav__title"><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">Tags</text></svg>
-<ul class=mb-header-nav-list>
-</ul>
-</div>
 <div class=mb-header-nav__container><svg width="240" height="72" viewBox="0 0 240 72" class="mb-header-nav__title"><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">Menu</text></svg>
 <ul class=mb-header-nav-list>
 <li class=mb-header-nav-list__item>
 <a class=mb-header-nav-list__link href=about>
 About
-</a>
-</li>
-<li class=mb-header-nav-list__item>
-<a class=mb-header-nav-list__link href=portfolio>
-Portfolio
 </a>
 </li>
 <li class=mb-header-nav-list__item>
@@ -85,18 +71,56 @@ Theme?
 </li>
 </ul>
 </div>
+<div class=mb-header-nav__wrapper>
+<div class=mb-header-nav__container><svg width="240" height="72" viewBox="0 0 240 72" class="mb-header-nav__title"><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">Tags</text></svg>
+<ul class=mb-header-nav-list>
+<li class=mb-header-nav-list__item>
+<a class=mb-header-nav-list__link href=//royjara.xyz/tags/portfolio/>portfolio</a>
+</li>
+<li class=mb-header-nav-list__item>
+<a class=mb-header-nav-list__link href=//royjara.xyz/tags/arduino/>arduino</a>
+</li>
+<li class=mb-header-nav-list__item>
+<a class=mb-header-nav-list__link href=//royjara.xyz/tags/maxmsp/>maxmsp</a>
+</li>
+</ul>
+</div>
 </div>
 </nav>
 </header>
 <div id=content>
 <article class=post>
-<div class=post-content><p>Description: lights as firmata output</p>
-<p>Inspiration: music shows</p>
-<p>about exploration: relays, software,</p>
-<p>Bill of Materials (final)</p>
-<p>Making:</p>
-<p>Eval:</p>
-<p>End</p>
+<div class=post-content><h5 id=why-play-a-regular-old-flute-when-you-can-augment-it-using-computers>Why play a regular old flute when you can augment it using computers?</h5>
+<p><em>An exploration for thc212 research presentation</em></p>
+<p>We all know and treasure the flute: the physics of resonating sound waves inside of the chamber, how daunting all the keys look to the inexperienced player, and how it is still used in modern music. The sound from the flute strongly approximates pure sine waves, yet the sound can be as expressive as the player desires via blowing modulations and lip placement.</p>
+<p>However, I&rsquo;m seeking to take this a step further and create interactions with software via hardware. Real-time sound effects are the first thing that comes to mind. So I&rsquo;ll start with that. But I picture this project becoming a modular platform that could enable further interaction (synthesis of computer graphics, automated accompaniment, sentiment detection, etc).
+For now, let&rsquo;s start with the basics.</p>
+<p>Real-time DSP - Bill of Materials:</p>
+<ul>
+<li>Flute</li>
+<li>USB-C Lapel Microphone</li>
+<li>Computer with Max/MSP</li>
+<li>Arduino Nano Sense 33 BLE</li>
+<li>3D printed bracket</li>
+<li>ANT HR Monitor</li>
+<li>Display (projector, screen, LED Wall)</li>
+</ul>
+<p>For the sake of simplicity and to get this project going with minimum cost, I&rsquo;m using a cheap USB-C lapel mic (aprox $10 on ebay) connected to my macbook pro running max/msp.
+The arduino&rsquo;s internal IMU will serve as a controller for any audio effects.
+The ANT HR Monitor will be transmitting the player&rsquo;s heart rate to the arduino. The arduino will then retransmit the HR and the IMU data to the computer for control of parameters in max/msp or any other software to be used.
+I&rsquo;m thinking the HR could be used to create a drum beat based on that tempo.</p>
+<p>The initial patches:</p>
+<ul>
+<li>Note detection</li>
+<li>Delay</li>
+<li>Reverb</li>
+<li>Looper</li>
+</ul>
+<p>In order to get this prototype working fast, I&rsquo;m going to be using existent functions/algorithms for the reverb and delay.</p>
+<p>Later on:</p>
+<ul>
+<li>wekinator</li>
+</ul>
 </div>
 </article>
 <button class=floating-button>
