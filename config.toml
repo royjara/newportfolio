@@ -21,15 +21,15 @@ CanonifyURLs = true
   # Navbar Menus
   [[menu.main]]
     name    = "About"
-    url     = "about"
+    url     = "/about"
     weight  = 1
   [[menu.main]]
     name    = "Get in touch"
-    url     = "contact"
-    weight  = 3
+    url     = "/contact"
+    weight  = 2
   [[menu.main]]
     name    = "Theme?"
-    url     = "theme"
+    url     = "/theme"
     weight  = 3
 
 # used for tags:
