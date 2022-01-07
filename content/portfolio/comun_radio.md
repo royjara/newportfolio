@@ -1,12 +1,20 @@
----
-title: "COMUN RADIO"
-date: 2019-12-23T20:56:42+06:00
-type: portfolio
-image: "images/projects/comunradio_square.png"
-category: ["WEB RADIO"]
-project_images: ["images/projects/comunradio1.png",
-"images/projects/comunradio1.png",]
----
++++
+author = ["Roy Jara"]
+title = "comun.radio"
+date = "2021-04-30"
+description = "Lima community radio."
+tags = [
+    "portfolio",
+    "cloud",
+    "music",
+]
+categories = [
+    "music",
+    "radio",
+]
+series = ["Portfolio"]
+imagelink = "images/backgrounds/comunradio1.png"
++++
 
 In a country where most radio stations only look for music overseas, a vaccuum for the promotion of national talent served as motivation to start Comun Radio, a community radio based in Lima, Peru.
 

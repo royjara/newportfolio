@@ -9,6 +9,7 @@ project_images:
     "images/projects/project-details-image-one.jpg",
     "images/projects/project-details-image-two.jpg",
   ]
+draft: true
 ---
 
 Description: lights as firmata output

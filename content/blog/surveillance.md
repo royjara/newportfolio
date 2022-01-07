@@ -14,7 +14,8 @@ categories = [
     "ethics"
 ]
 series = ["Writing"]
-imagelink = "images/backgrounds/diylogoArtboard2.png"
+imagelink = "images/backgrounds/ligh_wip_bg.png"
+draft = true
 +++
 
 

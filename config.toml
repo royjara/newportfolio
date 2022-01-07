@@ -9,6 +9,7 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 theme         = "origin"
 summarylength = 25
+enableEmoji = true
 
 UglifyURLs = true
 CanonifyURLs = true
@@ -20,12 +21,12 @@ CanonifyURLs = true
 [menu]
   # Navbar Menus
   [[menu.main]]
-    name    = "About"
-    url     = "/about"
+    name    = "Home"
+    url     = "/"
     weight  = 1
   [[menu.main]]
-    name    = "Get in touch"
-    url     = "/contact"
+    name    = "About"
+    url     = "/about"
     weight  = 2
   [[menu.main]]
     name    = "Theme?"

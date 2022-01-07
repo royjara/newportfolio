@@ -13,8 +13,7 @@ categories = [
     "newmedia",
 ]
 series = ["Portfolio"]
-imagelink = "images/backgrounds/diylogoArtboard2.png"
-weight = 1
+imagelink = "images/backgrounds/ligh_wip_bg.png"
 +++
 
 ##### Why play a regular old flute when you can augment it using computers?

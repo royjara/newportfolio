@@ -14,6 +14,7 @@ categories = [
 ]
 series = ["Writing"]
 imagelink = "images/backgrounds/diylogoArtboard2.png"
+draft = true
 +++
 
 ### How art became even more conceptual?
