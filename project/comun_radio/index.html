@@ -2,26 +2,26 @@
 <meta charset=utf-8>
 <title>Roy Jara</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Lima community radio.">
+<meta name=description content="Peru community radio.">
 <meta property="og:title" content="comun.radio">
-<meta property="og:description" content="Lima community radio.">
+<meta property="og:description" content="Peru community radio.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="//royjara.xyz/project/comun_radio/">
 <meta itemprop=name content="comun.radio">
-<meta itemprop=description content="Lima community radio.">
+<meta itemprop=description content="Peru community radio.">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="comun.radio">
-<meta name=twitter:description content="Lima community radio.">
+<meta name=twitter:description content="Peru community radio.">
 <link rel=apple-touch-icon sizes=180x180 href=apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=favicon-32.png>
-<link rel=stylesheet href=//royjara.xyz/scss/style.min.e58a5252e9b9ef87004c8fd6793d60d92ee38ee366af4791c2e0857c263d0224.css>
+<link rel=stylesheet href=//royjara.xyz/scss/style.min.6a74f31cd0e6ac06e4e8d3c796976e8f527a2ab88b218bcc91ed6a41fe80c163.css>
 </head>
 <body>
 <header>
 <div class="header header-frame">
 <div>
 <h1 class=header__title>comun.radio</h1>
-<div class=header__description>Lima community radio.</div>
+<div class=header__description>Peru community radio.</div>
 </div>
 <nav class=header-nav>
 <ul class="header-nav-list header-nav-list--menu">
@@ -90,24 +90,43 @@ Theme?
 </header>
 <div id=content>
 <article class=post>
-<div class=post-content><p>In a country where most radio stations only look for music overseas, a vaccuum for the promotion of national talent served as motivation to start Comun Radio, a community radio based in Lima, Peru.</p>
+<div class=post-content><h3 id=some-context>Some context</h3>
 <blockquote>
-<p>&ldquo;Driven by musicians, intended for fellow music lovers.&rdquo;</p>
+<p><a href=///comun.radio><strong>comun.radio</strong></a> was created as a response to the lack of distribution opportunities for the forward thinking musicians and sound artists in Peru.</p>
 </blockquote>
-<h5 id=cloud-server-digital-ocean--azuracast>Cloud Server: Digital Ocean + Azuracast</h5>
-<p>The cloud computing paradigm empowers the small entrepreneur and provides them with the tools needed to avoid upfront costs of purchasing hardware. Via cloud computing, we can easily create and destroy a server (or multiple when we need to scale) without having to actually own the machine. AWS, Google Cloud, Azure are the most popular options. But we&rsquo;re proud to be using Digital Ocean (DO).</p>
-<p>Apart from the seamless installation of an azuracast instance, this cloud provider offers the best network throughput for the money.</p>
-<p>Now, inside of this DO droplet, we&rsquo;re using Azuracast to handle the media ingestion as well as the programming and streaming.</p>
-<h5 id=dj-clients-butt>DJ Clients: BUTT</h5>
-<p>BUTT (Broadcast Using This Tool) is a lifesaver. Open source software comes in handy once again. BUTT is a small but sturdy tool to broadcast remotely. It integrates effortlessly with the Azuracast system after some initial configuration.</p>
-<h5 id=frontend-readymag>Frontend: Readymag</h5>
-<p>Disclaimer: still a WIP</p>
-<p>Upcoming work includes:</p>
+<img src=//royjara.xyz/images/comunradio/comunradio1.png alt="dj booth" width=100%>
+<p>Peru is a country gifted with an extraordinary diversity of people, races, languages and customs. With so much potential for richness within modern artistic practices, this is unfortunately for from the reality. Focusing on music, the predominant radio outlets for distribution of modern music are hesitant to look to Peruvians and Peruvian traditions. Local radio stations within the different regions of Peru do stream traditional music, but the radios with national coverage prefer to abroad for music. But most importantly, there is no one unified radio that seeks to challenge genre divisions and instead curate music for its actual artistic value, regardless of time period, origin, language, or genre.</p>
+<p>Diana Taylor, in her book Archive in the Repertoire, describes the artistic environment in Peru for theatrical works that seek to embody our history, our traditions, and our culture. This environment prevails for practices beyond theatre, including visual arts, music, and performance.</p>
+<blockquote>
+<p>[Peru is] a country that pits nationality against ethnicity, literacy against orality, the archive against the repertoire of embodied knowledge. In Peru, the urban turns its back on the rural, and languages (Spanish, Quechua, and Aymara) serve more to differentiate among groups and silence voices than to enable communication. (Taylor 191)</p>
+</blockquote>
+<p><a href=///comun.radio><strong>comun.radio</strong></a> was created as a response to the lack of distribution opportunities for forward thinking musicians and sound artists in Peru. Even though this is still an evolving project, we are continuously working towards becoming the platform that will renew the appreciation for Peruvian music, and the outlet that will provide more opportunities to overlooked and underrepresented musicians.</p>
+<br>
+<hr>
+<br>
+<h3 id=tech-stack>Tech stack</h3>
+<p>The cloud computing paradigm empowers the small entrepreneur and provides them with the tools needed to avoid upfront costs of purchasing hardware. Via cloud computing, we can use infrastructure that will grow as our platform grows in popularity and complexity.</p>
+<p>For the people that are seeking to create an internet radio, I&rsquo;ll list some of the essential technologies that we&rsquo;ve used to build <strong>comun.radio</strong>.</p>
+<h4 id=digital-oceanhttpswwwdigitaloceancom><a href=https://www.digitalocean.com/>Digital Ocean</a></h4>
+<p>DO is a relatively small cloud provider compared to the big companies around. Nevertheless, this platform was ideal for our needs because it offers the highest network bandwidth per dollar. Therefore, this helps us reduce our streaming costs without sacrificing quality.</p>
+<p>Currently we&rsquo;re using a simple auto-scaling group architecture as our initial solution. Due to the relatively low cost of this implementation, we&rsquo;re in no desperate need to further optimize the architecture. However, as technologies continue to roll out, we will evaluate and implement changes accordingly.</p>
+<img src=//royjara.xyz/images/comunradio/do_1.png alt="cloud architecture solution" width=100%>
+<h4 id=azuracasthttpswwwazuracastcom><a href=https://www.azuracast.com/>Azuracast</a></h4>
+<p>This open-source radio platform aggregates multiple radio technologies (the most important being liquidsoap and icecast). This solution includes graphical interfaces for easy management, content management, and an array of multiple features and configurations that are quite good. This project hasn&rsquo;t reached an official 1.0 release yet, but it is surprisingly stable and has a highly dedicated community.</p>
+<h4 id=butthttpsdanielnoethendebutt><a href=https://danielnoethen.de/butt/>BUTT</a></h4>
+<p>BUTT (Broadcast Using This Tool) is a lifesaver. Open source software comes in handy once again. BUTT is a small but sturdy tool to broadcast remotely. It integrates connects to Icecast streams running inside of Azuracast to then relay the content to the listeners.</p>
+<h4 id=readymaghttpsreadymagcom><a href=https://readymag.com/>Readymag</a></h4>
+<p>Russian no-code platform for making visually pleasing websites. No-code platforms are the future. Although we might migrate soon, the UI is highly intuitive and minimal, which is ideal for people who are just getting started. RM&rsquo;s community is extremely helpful too.</p>
+<br>
+<hr>
+<br>
+<blockquote>
+<p>If you any further inquiries don&rsquo;t hesitate to contact me! - see about for email or footer for ig</p>
+</blockquote>
+<h3 id=huge-thanks-to-the-people-that-are-helping-to-build-this-radio>Huge thanks to the people that are helping to build this radio:</h3>
 <ul>
-<li>Scripts for auto-editing audio and video.</li>
-<li>Scripts for automatically populating content (youtube, soundcloud)</li>
-<li>UX/UI improvements for a more cohesive navigation.</li>
-<li>Calendar and schedule views on the frontend.</li>
+<li><a href=https://www.instagram.com/sebastiangalliani/>@sebastiangalliani</a></li>
+<li><a href=https://www.instagram.com/unjust.systems/>@unjust.systems</a></li>
 </ul>
 </div>
 </article>

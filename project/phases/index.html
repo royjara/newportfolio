@@ -14,7 +14,7 @@
 <meta name=twitter:description content="ML Tracking + Image synthesis Installation.">
 <link rel=apple-touch-icon sizes=180x180 href=apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=favicon-32.png>
-<link rel=stylesheet href=//royjara.xyz/scss/style.min.e58a5252e9b9ef87004c8fd6793d60d92ee38ee366af4791c2e0857c263d0224.css>
+<link rel=stylesheet href=//royjara.xyz/scss/style.min.6a74f31cd0e6ac06e4e8d3c796976e8f527a2ab88b218bcc91ed6a41fe80c163.css>
 </head>
 <body>
 <header>
@@ -90,8 +90,30 @@ Theme?
 </header>
 <div id=content>
 <article class=post>
-<div class=post-content><h3 id=in-2019-i-took-a-class-called-ml-in-the-arts--ucsd>In 2019 I took a class called ML in the arts @ UCSD</h3>
-<p>We were prompted to use machine learning to get</p>
+<div class=post-content><h3 id=ml-in-the-arts-final-project--ucsd-circa-march-2019>ML in the arts final project @ UCSD (circa March 2019)</h3>
+<br>
+<p style=text-align:center;font-weight:700;font-style:italic> <b>How do you make art with machine learning? </b></p>
+<p>To answer that we would need to rewind a little and first answer the age old question:</p>
+<p style=text-align:center;font-weight:700;font-style:italic> <b>What is art? </b></p>
+<p>Unfortunately, there is no definite answer.</p>
+<p style=text-align:center;font-weight:700;font-style:italic> <b>So... can anything be art? </b></p>
+<p>To avoid getting into a philosophical discussion, let&rsquo;s take art to be &ldquo;a means of creative expression to convey ideas, emotions or messages.&rdquo;</p>
+<br>
+<hr>
+<br>
+<h3 id=the-goal-for-phases>The goal for Phases</h3>
+<p>Create a new medium for creative expression using machine learning. Instead of making an artwork, we chose to make a tool that allows a new form of expression. Instead of using a hand to control the pencil traces on paper, we&rsquo;re using a hand to control the synthesis of a face.</p>
+<h4 id=main-components>Main components:</h4>
+<ul>
+<li>Low cost body tracking: CMU&rsquo;s Openpose</li>
+<li>Image synthesis: Nvidia&rsquo;s StyleGAN</li>
+</ul>
+<h4 id=technical-idea>Technical idea:</h4>
+<p>Presynthesize images to get a latent space of faces. Parameters to tune this space would be mainly the seeds (faces to interpolate) and the grid size.</p>
+<img src=//royjara.xyz/images/phases/phases_matrix_s.png alt="latent space example" width=100%>
+<p>Then we take the readings from the digital skeleton obtained from openpose to map movement from the skeleton to the latent space.</p>
+<p>At the time, we were restricted on time and hardware so we had to stitch the two parts together - in other words, it wasn&rsquo;t running in realtime.</p>
+<p>I&rsquo;ll probably try to get it to run in realtime at some point. But for now, enjoy the side to side results (from 2019)!</p>
 <p>
 <div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden>
 <iframe src=https://player.vimeo.com/video/341742466 style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -100,6 +122,12 @@ Theme?
 <iframe src=https://player.vimeo.com/video/341745596 style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 </p>
+<br>
+<hr>
+<br>
+<h3 id=shouts-out-to>Shouts out to&mldr;</h3>
+<p>My project partner <a href=https://www.instagram.com/e_li_ot_/>@e_li_ot_</a> <br>
+And our wonderful instructor <a href=https://roberttwomey.com/>Robert Twomey</a></p>
 </div>
 </article>
 <button class=floating-button>

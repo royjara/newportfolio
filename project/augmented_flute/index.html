@@ -14,7 +14,7 @@
 <meta name=twitter:description content="Musical instrument for new media performances.">
 <link rel=apple-touch-icon sizes=180x180 href=apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=favicon-32.png>
-<link rel=stylesheet href=//royjara.xyz/scss/style.min.e58a5252e9b9ef87004c8fd6793d60d92ee38ee366af4791c2e0857c263d0224.css>
+<link rel=stylesheet href=//royjara.xyz/scss/style.min.6a74f31cd0e6ac06e4e8d3c796976e8f527a2ab88b218bcc91ed6a41fe80c163.css>
 </head>
 <body>
 <header>
@@ -90,35 +90,30 @@ Theme?
 </header>
 <div id=content>
 <article class=post>
-<div class=post-content><h5 id=why-play-a-regular-old-flute-when-you-can-augment-it-using-computers>Why play a regular old flute when you can augment it using computers?</h5>
-<p><em>An exploration for thc212 research presentation</em></p>
+<div class=post-content><h4> <strong>Why play a regular flute when you can augment it using computers?</strong></h4>
+<p>An exploration for <strong>UCLA Theater C212: Emerging Technologies for Live Performance</strong></p>
 <p>We all know and treasure the flute: the physics of resonating sound waves inside of the chamber, how daunting all the keys look to the inexperienced player, and how it is still used in modern music. The sound from the flute strongly approximates pure sine waves, yet the sound can be as expressive as the player desires via blowing modulations and lip placement.</p>
-<p>However, I&rsquo;m seeking to take this a step further and create interactions with software via hardware. Real-time sound effects are the first thing that comes to mind. So I&rsquo;ll start with that. But I picture this project becoming a modular platform that could enable further interaction (synthesis of computer graphics, automated accompaniment, sentiment detection, etc).
+<p>However, I&rsquo;m seeking to take this a step further and create interactions with software via extra input sensors. Modulation of real-time sound effects are the first thing that comes to mind. So I&rsquo;ll start with that. But I picture this project becoming a modular platform that could enable further interaction (synthesis of computer graphics, automated accompaniment, sentiment detection, etc).
 For now, let&rsquo;s start with the basics.</p>
-<p>Real-time DSP - Bill of Materials:</p>
+<br>
+<hr>
+<br>
+<p>Bill of Materials:</p>
 <ul>
 <li>Flute</li>
-<li>USB-C Lapel Microphone</li>
+<li>Arduino Nano Sense 33 BLE (~$30)</li>
+<li>USB-C Lapel Microphone (~$8)</li>
 <li>Computer with Max/MSP</li>
-<li>Arduino Nano Sense 33 BLE</li>
-<li>3D printed bracket</li>
 <li>ANT HR Monitor</li>
-<li>Display (projector, screen, LED Wall)</li>
+<li>Display (projector, screen, LED wall, etc)</li>
+<li>3D printed bracket</li>
 </ul>
-<p>For the sake of simplicity and to get this project going with minimum cost, I&rsquo;m using a cheap USB-C lapel mic (aprox $10 on ebay) connected to my macbook pro running max/msp.
-The arduino&rsquo;s internal IMU will serve as a controller for any audio effects.
-The ANT HR Monitor will be transmitting the player&rsquo;s heart rate to the arduino. The arduino will then retransmit the HR and the IMU data to the computer for control of parameters in max/msp or any other software to be used.
-I&rsquo;m thinking the HR could be used to create a drum beat based on that tempo.</p>
-<p>The initial patches:</p>
+<h3 id=wiring-diagram>Wiring diagram:</h3>
+<p><img src=//royjara.xyz/images/augmented_flute/wiring_iteration1.png alt=wiringdiagram></p>
+<p>For the first iteration, I&rsquo;m just seeking connectivity between the different parts. Later, we can use the physical parts+connections to design fuller systems with custom DSP/graphics.</p>
+<h2 id=next-steps>Next steps&mldr;</h2>
 <ul>
-<li>Note detection</li>
-<li>Delay</li>
-<li>Reverb</li>
-<li>Looper</li>
-</ul>
-<p>In order to get this prototype working fast, I&rsquo;m going to be using existent functions/algorithms for the reverb and delay.</p>
-<p>Later on:</p>
-<ul>
+<li>implementation #1</li>
 <li>wekinator</li>
 </ul>
 </div>
