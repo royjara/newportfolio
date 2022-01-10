@@ -203,6 +203,10 @@ a {
 @import "button";
 @import "404";
 
+.no-bullets {
+  list-style-type: none;
+}
+
 .card-form {
   width: 500px;
   // border-radius: 10px;

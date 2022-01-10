@@ -25,6 +25,11 @@ I'm seeking to accelerate the ethical distribution of new technologies to people
 
 I am proficient with computers and many digital tools, I won't list them here. But know that I can easily learn stuff I don't know :P.
 
+### Work Experience
+
+- Business Software
+- Architectural Audio
+- Cloud Solutions
 
 ### Languages
 
@@ -34,10 +39,14 @@ I am proficient with computers and many digital tools, I won't list them here. B
 - German (Beginner)
 
 
-<br>
-<br>
+### Contact:
+<ul>
+<li class="no-bullets">Email: rmjara@g.ucla.edu</li>
+</ul>
 
-<div class="card-form">
+
+
+<!-- <div class="card-form">
   <form class="signup" action="https://formspree.io/f/mwkajpre"
   method="POST">
     <div class="form-title">Get in touch!</div>
@@ -56,4 +65,4 @@ I am proficient with computers and many digital tools, I won't list them here. B
       <input type="hidden" name="_next" value="/" />
     </div>
   </form>
-</div>
+</div> -->
